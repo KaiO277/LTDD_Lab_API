@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-    private static final String BASE_URL = "http://192.168.1.4/androidwebsite/";
+    private static final String BASE_URL = "http://10.23.11.93/androidwebsite/";
     private static final Gson gson = new GsonBuilder().create();
     private static final OkHttpClient okHttpClient = new OkHttpClient.Builder()
             .connectTimeout(30, TimeUnit.SECONDS)
